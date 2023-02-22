@@ -4,8 +4,7 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Normalization vs Unnomarlization (Tugas 9) &#8212; Dwi Aqilah Pradita</title>
     
   <!-- Loaded before other Sphinx assets -->
@@ -107,7 +106,7 @@ const thebe_selector_output = ".output, .cell_output"
         <ul class="nav bd-sidenav bd-sidenav__home-link">
             <li class="toctree-l1">
                 <a class="reference internal" href="intro.html">
-                    Welcome to your Jupyter Book
+                    Welcome to Tugas Penambangan B
                 </a>
             </li>
         </ul>
@@ -422,7 +421,7 @@ title="Print to PDF"
                 
               <div>
                 
-  <section class="tex2jax_ignore mathjax_ignore" id="normalization-vs-unnomarlization-tugas-9">
+  <div class="tex2jax_ignore mathjax_ignore section" id="normalization-vs-unnomarlization-tugas-9">
 <h1>Normalization vs Unnomarlization  (Tugas 9)<a class="headerlink" href="#normalization-vs-unnomarlization-tugas-9" title="Permalink to this headline">#</a></h1>
 <ol class="simple">
 <li><p>Baca data <em>Diabetic Retinopathy Debrecen Data Set</em></p></li>
@@ -442,14 +441,14 @@ title="Print to PDF"
 <ol class="simple">
 <li><p>Tampilkan <em>accuracy, precision, &amp; recall</em> dari setiap algoritma</p></li>
 </ol>
-<section id="baca-data">
+<div class="section" id="baca-data">
 <h2>Baca Data<a class="headerlink" href="#baca-data" title="Permalink to this headline">#</a></h2>
 <ul class="simple">
 <li><p>Baca data dengan <em>library pandas</em> <em>italicized text</em></p></li>
 <li><p>Data <a class="reference external" href="https://raw.githubusercontent.com/MuhammadKurniaSani-me/credit_score/main/credit_score.csv">Credit Score</a></p></li>
 <li><p>Data <a class="reference external" href="https://docs.google.com/spreadsheets/d/1Yz2evrqDKDqPaltk3VhEDbd8QkbkXZjE/edit?usp=sharing&amp;ouid=104778244268493691619&amp;rtpof=true&amp;sd=true">Hitung Manual</a></p></li>
 </ul>
-<section id="persiapan-lingkungan">
+<div class="section" id="persiapan-lingkungan">
 <h3>Persiapan Lingkungan<a class="headerlink" href="#persiapan-lingkungan" title="Permalink to this headline">#</a></h3>
 <ul class="simple">
 <li><p>Impor <em>pandas library</em></p></li>
@@ -524,7 +523,7 @@ title="Print to PDF"
 </div>
 <div class="cell_output docutils container">
 <div class="output text_html">
-  <div id="df-5d2d9cb4-6fc4-4b94-8630-efb3775e82f9">
+  <div id="df-b38fd43c-d701-416a-8a7e-5ad735d7b107">
     <div class="colab-df-container">
       <div>
 <style scoped>
@@ -824,7 +823,7 @@ title="Print to PDF"
 </table>
 <p>1151 rows × 20 columns</p>
 </div>
-      <button class="colab-df-convert" onclick="convertToInteractive('df-5d2d9cb4-6fc4-4b94-8630-efb3775e82f9')"
+      <button class="colab-df-convert" onclick="convertToInteractive('df-b38fd43c-d701-416a-8a7e-5ad735d7b107')"
               title="Convert this dataframe to an interactive table."
               style="display:none;">
 
@@ -875,12 +874,12 @@ title="Print to PDF"
 
       <script>
         const buttonEl =
-          document.querySelector('#df-5d2d9cb4-6fc4-4b94-8630-efb3775e82f9 button.colab-df-convert');
+          document.querySelector('#df-b38fd43c-d701-416a-8a7e-5ad735d7b107 button.colab-df-convert');
         buttonEl.style.display =
           google.colab.kernel.accessAllowed ? 'block' : 'none';
 
         async function convertToInteractive(key) {
-          const element = document.querySelector('#df-5d2d9cb4-6fc4-4b94-8630-efb3775e82f9');
+          const element = document.querySelector('#df-b38fd43c-d701-416a-8a7e-5ad735d7b107');
           const dataTable =
             await google.colab.kernel.invokeFunction('convertToInteractive',
                                                      [key], {});
@@ -1218,8 +1217,8 @@ title="Print to PDF"
 </div>
 </div>
 </div>
-</section>
-<section id="hitung-data">
+</div>
+<div class="section" id="hitung-data">
 <h3>Hitung Data<a class="headerlink" href="#hitung-data" title="Permalink to this headline">#</a></h3>
 <ul class="simple">
 <li><p>Pisahkan kolom “risk_rating” dari <em>dataframe</em></p></li>
@@ -1318,7 +1317,7 @@ title="Print to PDF"
 <span class="p">[</span><span class="mi">0</span><span class="p">,</span>	<span class="mi">0</span><span class="p">,</span>	<span class="mi">0</span><span class="p">,</span>	<span class="mi">0</span><span class="p">,</span>	<span class="mi">0</span><span class="p">,</span>	<span class="mi">0</span><span class="p">,</span>	<span class="mi">1</span><span class="p">,</span>	<span class="mf">0.582609</span><span class="p">,</span>	<span class="mf">0.666667</span><span class="p">,</span>	<span class="mi">0</span><span class="p">]</span>
 </pre></div>
 </div>
-<section id="implementasi-gaussian-naive-bayes">
+<div class="section" id="implementasi-gaussian-naive-bayes">
 <h4>Implementasi Gaussian Naive Bayes<a class="headerlink" href="#implementasi-gaussian-naive-bayes" title="Permalink to this headline">#</a></h4>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -1378,8 +1377,8 @@ title="Print to PDF"
 </div>
 </div>
 </div>
-</section>
-<section id="implementasi-k-nearest-neighbors">
+</div>
+<div class="section" id="implementasi-k-nearest-neighbors">
 <h4>Implementasi K - Nearest Neighbors<a class="headerlink" href="#implementasi-k-nearest-neighbors" title="Permalink to this headline">#</a></h4>
 <ul class="simple">
 <li><p>Tentukan nilai K = 10 (10 tetangga terdekat)</p></li>
@@ -1451,8 +1450,8 @@ title="Print to PDF"
 </div>
 </div>
 </div>
-</section>
-<section id="implementasi-decision-tree">
+</div>
+<div class="section" id="implementasi-decision-tree">
 <h4>Implementasi Decision Tree<a class="headerlink" href="#implementasi-decision-tree" title="Permalink to this headline">#</a></h4>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -1493,10 +1492,10 @@ title="Print to PDF"
 </div>
 </div>
 </div>
-</section>
-</section>
-</section>
-</section>
+</div>
+</div>
+</div>
+</div>
 
     <script type="text/x-thebe-config">
     {
@@ -1510,7 +1509,7 @@ title="Print to PDF"
             mode: "python"
         },
         kernelOptions: {
-            kernelName: "python3",
+            name: "python3",
             path: "./."
         },
         predefinedOutput: true
